@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 import {
   Hero,
-  // About,
+  About,
   // Features,
   // Testimonials,
   // CtaSection,
@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className='overflow-hidden'>
       <Hero />
-      {/* <About /> */}
+      <About />
       {/* <Features /> */}
       {/* <Testimonials /> */}
       {/* <CtaSection /> */}
