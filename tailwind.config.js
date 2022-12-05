@@ -3,8 +3,8 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      primary: "Open Sans",
-      secondary: "Lato",
+      primary: ["Open Sans", "sans-serif"],
+      secondary: ["Lato", "sans-serif"],
     },
     container: {
       padding: {
