@@ -4,11 +4,11 @@ import "aos/dist/aos.css";
 
 import {
   Hero,
-  About,
-  Features,
-  Testimonials,
-  CtaSection,
-  Footer,
+  // About,
+  // Features,
+  // Testimonials,
+  // CtaSection,
+  // Footer,
 } from "./components/";
 
 const App = () => {
@@ -20,11 +20,11 @@ const App = () => {
   return (
     <div className='overflow-hidden'>
       <Hero />
-      <About />
-      <Features />
-      <Testimonials />
-      <CtaSection />
-      <Footer />
+      {/* <About /> */}
+      {/* <Features /> */}
+      {/* <Testimonials /> */}
+      {/* <CtaSection /> */}
+      {/* <Footer /> */}
     </div>
   );
 };
