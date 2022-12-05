@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
-function App() {
+import {
+  Hero,
+  About,
+  Features,
+  Testimonials,
+  CtaSection,
+  Footer,
+} from "./components/";
+
+const App = () => {
+  // aos init
+  Aos.init({
+    duration: 1800,
+    offset: onabort,
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='overflow-hidden'>
+      <Hero />
+      <About />
+      <Features />
+      <Testimonials />
+      <CtaSection />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
