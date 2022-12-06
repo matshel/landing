@@ -6,7 +6,7 @@ import {
   Hero,
   About,
   Features,
-  // Testimonials,
+  Testimonials,
   // CtaSection,
   // Footer,
 } from "./components/";
@@ -22,7 +22,7 @@ const App = () => {
       <Hero />
       <About />
       <Features />
-      {/* <Testimonials /> */}
+      <Testimonials />
       {/* <CtaSection /> */}
       {/* <Footer /> */}
     </div>
