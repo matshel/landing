@@ -8,7 +8,7 @@ import {
   Features,
   Testimonials,
   CtaSection,
-  // Footer,
+  Footer,
 } from "./components/";
 
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
       <Features />
       <Testimonials />
       <CtaSection />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
